@@ -1,23 +1,26 @@
 {
-  "name": "file_metadata",
-  "version": "0.0.1",
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
   "description": "API project for freeCodeCamp",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.16.4",
-    "cors": "^2.8.5"
+    "multer": "^1.4.4"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/freeCodeCamp/boilerplate-project-filemetadata"
+    "url": "https://github.com/rociortega323-alt/file-metadata-microservice"
   },
   "keywords": [
     "node",
-    "express"
+    "express",
+    "freeCodeCamp",
+    "file-metadata"
   ],
   "license": "MIT"
 }
